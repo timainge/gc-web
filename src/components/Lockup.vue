@@ -4,7 +4,7 @@
       <h1>Good</h1>
     </div>
     <div class="logo-container">
-      <img alt="Vue logo" class="logo" src="../assets/icons/icon-hand@2x.png" />
+      <img alt="Vue logo" class="logo" src="../assets/icons/pictogif.gif" />
     </div>
     <div>
       <h1>Collective</h1>
