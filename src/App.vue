@@ -23,7 +23,7 @@ onMounted(() => {
     <main>
       <CallToAction variant="large">
         <template #heading>
-          <h1>We’re a collective of digital makers and engineers</h1>
+          <h2>We’re a collective of digital makers and engineers</h2>
         </template>
         <template #text>
           <p>Based in Canberra, Australia — we’re a collective of good people who do good work.</p>
@@ -37,7 +37,7 @@ onMounted(() => {
 
       <CallToAction variant="default">
         <template #heading>
-          <h1>We make good products, services and intentions real</h1>
+          <h2>We make good products, services and intentions real</h2>
         </template>
         <template #text>
           <p>
