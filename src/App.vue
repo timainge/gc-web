@@ -63,7 +63,7 @@ onMounted(() => {
       <FeaturePill type="black">
         <CallToAction variant="small">
           <template #heading>
-            <h1>More to show, soon.</h1>
+            <h1>More to show, soon</h1>
           </template>
           <template #text>
             <!--<p>
