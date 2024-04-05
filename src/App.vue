@@ -40,7 +40,7 @@ onMounted(() => {
         <img
           alt="A mockup of a website designed by The Good Collective"
           src="../public/yourcareer.png"
-          style="width: 70%"
+          style="height: 100%"
         />
       </FeaturePill>
 
