@@ -10,11 +10,13 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
-  background-color: #f0f0f0;
+  //padding: 1rem;
+  background: color(display-p3 0.651 0.8863 0.9608);
+  background-color: #94e4f8;
   height: 320px;
   border-radius: 160px;
   margin: 8rem 0;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
