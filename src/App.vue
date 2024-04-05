@@ -2,6 +2,7 @@
 import Lockup from './components/Lockup.vue'
 import FeaturePill from './components/FeaturePill.vue'
 import CallToAction from './components/CallToAction.vue'
+import Footer from './components/Footer.vue'
 import { Application } from '@splinetool/runtime'
 import { ref, onMounted } from 'vue'
 const canvas = ref(null)
@@ -69,6 +70,8 @@ onMounted(() => {
           </template>
         </CallToAction>
       </FeaturePill>
+
+      <Footer />
     </main>
   </div>
 </template>
