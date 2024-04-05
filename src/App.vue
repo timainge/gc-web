@@ -16,7 +16,7 @@ onMounted(() => {
   <div class="app-container">
     <header>
       <Lockup />
-      <FeaturePill>
+      <FeaturePill type="blue">
         <canvas ref="canvas"></canvas>
       </FeaturePill>
     </header>
@@ -36,6 +36,14 @@ onMounted(() => {
         </template>
       </CallToAction>
 
+      <FeaturePill type="pink">
+        <img
+          alt="A mockup of a website designed by The Good Collective"
+          src="../public/yourcareer.png"
+          style="width: 70%"
+        />
+      </FeaturePill>
+
       <CallToAction variant="default">
         <template #heading>
           <h2>We make good products, services and intentions real</h2>
@@ -52,21 +60,18 @@ onMounted(() => {
         </template>
       </CallToAction>
 
-      <FeaturePill>
+      <FeaturePill type="black">
         <CallToAction variant="small">
           <template #heading>
-            <h1>We have a lot more to say and show, there will be a new website coming soon.</h1>
+            <h1>More to show, soon.</h1>
           </template>
           <template #text>
-            <p>
+            <!--<p>
               While not exactly in stealth mode, we've been quietly flying under the radar and
               working hard for our clients since we were founded in 2021.
-            </p>
-            <p>
-              We're excited to share more of these stories and what we've learned on our various
-              journeys in 2024.
-            </p>
-            <p>Stay tuned.</p>
+            </p>-->
+            <p>We've been working with our partners under the radar since 2021.</p>
+            <p>We're excited to share more this year.</p>
           </template>
         </CallToAction>
       </FeaturePill>
