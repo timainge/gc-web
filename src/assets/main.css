@@ -1,12 +1,12 @@
 @import './base.css';
 
 body {
-  font-family: 'Helvetica Neue', HelveticaNeue, 'TeX Gyre Heros', TeXGyreHeros, FreeSans,
+  font-family: Helvetica, 'Helvetica Neue', HelveticaNeue, 'TeX Gyre Heros', TeXGyreHeros, FreeSans,
     'Nimbus Sans L', 'Liberation Sans', Arimo, Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.2;
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 0%, 0.9);
   background-color: hsla(0, 0%, 100%, 1);
   padding: 0 1rem;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +16,14 @@ body {
 h1 {
   font-size: 72px;
   font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -1px;
 }
 
 p {
